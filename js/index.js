@@ -16,6 +16,16 @@ async function getData(){
                 const pricing_row = document.querySelector('.pricing-row');
                 pricing_row.append(item);
         }
+        
+
     });
 }
+const cajita = document.querySelector('.cajita');
+cajita.style.backgroundImage = "url('/images/stories-mountain.jpg')";
+
+const cajita2 = document.querySelector('.cajita2');
+cajita2.style.backgroundImage = "url('/images/stories-city.jpg')";
+
+
+
 getData()

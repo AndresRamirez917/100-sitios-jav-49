@@ -154,6 +154,17 @@ img {
 #showcase {
   color: #000;
 }
+#showcase .cajita, #showcase .cajita2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#showcase .cajita2 {
+  color: #fff;
+}
+#showcase .cajita2 a {
+  color: #fff;
+}
 
 #features .features-row {
   display: flex;
@@ -187,6 +198,7 @@ img {
 }
 #pricing .pricing-row {
   width: 80%;
+  padding-top: 5rem;
   text-align: center;
   margin: 0 auto;
   display: flex;
@@ -196,11 +208,12 @@ img {
   width: 100%;
   border-radius: 50%;
 }
+#pricing .pricing-row .item img:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
 #pricing .pricing-row h2 {
   margin: 1rem 0;
-}
-#pricing .pricing-row img {
-  width: 50%;
 }
 
 #footer {
